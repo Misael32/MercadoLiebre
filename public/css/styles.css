@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: #ebebeb;
 }
 
 .main-header {
@@ -82,10 +83,16 @@ body {
     padding-left: 2px;
 }
 
+.banner{
+    width: 100%;
+}
+
 h1{
-    font-size: 24px;
+    font-size: 22px;
     text-align: start;
-    padding: 10px;
+    padding: 15px 0;
+    color: #666;
+    width: 100%;
 }
 
 .main{
@@ -101,6 +108,7 @@ h1{
     font-size: 16px;
     margin: 15px 10px;
     padding-bottom: 10px;
+    background-color: white;
 }
 
 .product:hover{
@@ -171,7 +179,8 @@ div i, .descuento{
 }
 
 footer{
-    padding-top: 15px;
+    padding-top: 20px;
+    background-color: white;
 }
 
 footer div i{
@@ -203,6 +212,7 @@ footer div{
 
 .create-form{
     padding: 20px 15px;
+    background-color: #ebebeb;
 }
 
 .control-form{
@@ -337,6 +347,7 @@ footer div{
 
     .main article div h5{
         display: block;
+        font-size: 10px;
     }
     .logo{
         width: 250px;
@@ -365,15 +376,11 @@ footer div{
     }
 
     .precio{
-        font-size: 11px;
+        font-size: 9px;
     }
     
     .descuento{
-       font-size: 10px;
-    }
-
-    .produc-atrib-box h5{
-        font-size: 12px;
+       font-size: 9px;
     }
 
     .create-form{
@@ -384,23 +391,6 @@ footer div{
     #login-form{
         max-width: 600px;
         margin: auto;
-    }
-}
-
-@media (min-width: 1200px){
-    footer{
-        font-size: large;
-    }
-
-    .precio{
-        font-size: 18px;
-    }
-    
-    .descuento{
-       font-size: 15px;
-    }
-    .produc-atrib-box h5{
-        font-size: 18px;
     }
 
     footer{
@@ -418,5 +408,22 @@ footer div{
         display: block;
         text-align: center;
         width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    footer{
+        font-size: large;
+    }
+
+    .precio{
+        font-size: 18px;
+    }
+    
+    .descuento{
+       font-size: 15px;
+    }
+    .main article div h5{
+        font-size: 18px;
     }
 }
